@@ -62,7 +62,7 @@ jobs:
 
        - name: Terraform Destroy
          id: apple
-         run: terraform destroy -auto-approve -input=false -parallelism=1 planfile  
+         run: terraform destroy -auto-approve -input=false -parallelism=1 
 
        # - name: Terraform Apply
        #   id: apple
